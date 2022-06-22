@@ -1,0 +1,7 @@
+/*стандат*/
+@media screen and (min-width: 1101px) {
+  .scrnresolution_l {
+    max-width: calc(1280px - 2 * 48px);
+    width: calc(100% - 2 * 48px);
+  }
+}

@@ -1,0 +1,4 @@
+/*планшеты*/
+@media screen and (min-width: 601px) and (max-width:900px) {
+  .scrnresolution_s {
+    width: calc(100% - 2 * 24px);}}
