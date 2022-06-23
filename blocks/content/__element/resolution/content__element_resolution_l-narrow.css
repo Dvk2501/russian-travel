@@ -1,7 +1,0 @@
-/*большой отступ*/
-@media screen and (min-width: 1101px) {
-  .content__element_resolution_l-narrow {
-    max-width: calc(1280px - 2 * 148px);
-    width: calc(100% - 2 * 48px);
-  }
-}

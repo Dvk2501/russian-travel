@@ -22,3 +22,10 @@
 .cover:hover::before {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 1101px) {
+  .cover {
+    max-width: calc(1280px - 2 * 48px);
+    width: calc(100% - 2 * 48px);
+  }
+}
