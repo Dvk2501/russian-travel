@@ -1,4 +1,4 @@
-.cover__overlay {
+.cover__link {
   text-decoration: none;
   position: relative;
   width: 100%;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .cover__overlay {
+  .cover__link {
     min-height: 740px;
   }
 }

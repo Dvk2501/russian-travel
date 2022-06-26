@@ -12,7 +12,7 @@
 
   <body class="page">
     <div class="content">
-      <header class="header content__element">
+      <header class="header content__element page__header">
         <img
           class="header__logo"
           src="./images/__logo.svg"
@@ -144,9 +144,10 @@
             alt="природа"
           />
         </section>
+        </main>
         <section class="places content__main-section content__element">
-          <ul class="places__list">
-            <li class="place">
+
+          <article class="place places__place">
               <h2 class="place__title content__element">Куршская коса</h2>
               <div class="place__website content__element">
                 <p class="place__url-heading">Url</p>
@@ -181,8 +182,8 @@
                   стального, прохладного моря.
                 </p>
               </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place places__place">
               <h2 class="place__title content__element">Кольский</h2>
               <div class="place__website content__element">
                 <p class="place__url-heading">Url</p>
@@ -217,8 +218,8 @@
                   начинает сбываться с&nbsp;билетом в&nbsp;Мурманск.
                 </p>
               </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place places__place">
               <h2 class="place__title content__element">Алтай</h2>
               <div class="place__website content__element">
                 <p class="place__url-heading">Url</p>
@@ -253,8 +254,8 @@
                   Алтайского края.
                 </p>
               </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place places__place">
               <h2 class="place__title content__element">Зимний Байкал</h2>
               <div class="place__website content__element">
                 <p class="place__url-heading">Url</p>
@@ -288,9 +289,9 @@
                   &mdash; 197.011&nbsp;км/ч.
                 </p>
               </div>
-            </li>
+            </article>
 
-            <li class="place">
+            <article class="place places__place">
               <h2 class="place__title content__element">Карелия</h2>
               <div class="place__website content__element">
                 <p class="place__url-heading">Url</p>
@@ -323,12 +324,11 @@
                   кто тут хозяин.
                 </p>
               </div>
-            </li>
-          </ul>
+            </article>
         </section>
         <section class="cover content__main-section content__element">
           <a
-            class="cover__overlay"
+            class="cover__link"
             href="
       https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
@@ -345,6 +345,7 @@
       </main>
 
       <footer class="footer content__element">
+        <nav>
         <ul class="footer__links">
           <li>
             <a
@@ -392,6 +393,7 @@ https://travel.yandex.ru"
             >
           </li>
         </ul>
+      </nav>
         <p class="footer__copyright">&copy; 2022 Кравченко Дмитрий</p>
       </footer>
     </div>
