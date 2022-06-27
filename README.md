@@ -13,4 +13,4 @@
   - Дополнительные требования были только в формате, приближенном к реальному техзаданию
 
 ## Ссылка на готовый сайт
-https://github.com/Dvk2501/russian-travel
+https://dvk2501.github.io/russian-travel/
